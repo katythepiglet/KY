@@ -1,0 +1,45 @@
+
+
+.navbar {
+    border: solid #000080;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: black;
+}
+
+.blink-color{
+    animation-name: blink-color-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+}
+
+@keyframes blink-color-animation{
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    50% {
+        color: darkseagreen;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: blueviolet;
+    }
+    100% {
+        color: palevioletred;
+    }
+}
+
